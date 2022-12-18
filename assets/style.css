@@ -1,0 +1,39 @@
+    #startQuiz {
+      color: rgb(255, 255, 255);
+      background-color: rgb(49, 9, 49);
+      border: rgb(23, 0, 23);
+      border-radius: 6px;
+      font-size: x-large;
+    }
+
+    #paragraph {
+      line-height: 7px;
+    }
+    .middleSection {
+      text-align: center;
+    }
+
+    #highscore {
+      color: rgb(243, 3, 243);
+      margin: white;
+      background-color: white;
+      border: white;
+      font-size: large;
+    }
+
+    #time {
+      color: black;
+      margin: white;
+      background-color: white;
+      border: white;
+      font-size: large;
+    }
+
+    .topButtons {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .hide {
+      display:none;
+    }

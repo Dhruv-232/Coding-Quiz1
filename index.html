@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+
+<body>
+  <section class = "topButtons">
+    <button id = "highscore"> View high scores </button>
+    <button id = "time"> Time: </button>
+  </section>
+
+  <section class = "middleSection">
+    <h1> Coding Quiz Challenge </h1>
+    <section id="startScreen">
+      <div id = "paragraph">
+      <p> Try to answer the following code-related questions within the time limit. </p>
+      <p>Keep in mind that incorrect answers will penalise your score/time</p>
+      <p>by ten seconds.</p>
+    </div>
+    <button id = "startQuiz"> Start Quiz </button>
+    </section>
+    <section id="quizScreen" class="hide">
+      <h3 id="questionText"></h3>
+      <ul>
+        <li class="answers" id="answer0" data-index="0"></li>
+        <li class="answers" id="answer1" data-index="1"></li>
+        <li class="answers" id="answer2" data-index="2"></li>
+        <li class="answers" id="answer3" data-index="3"></li>
+      </ul>
+    </section>
+  </section>
+
+<script src="./assets/script.js"></script>
+</body>
+</html>
