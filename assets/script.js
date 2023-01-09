@@ -3,8 +3,10 @@ var timeEl = document.querySelector("#time")
 var startScreen = document.querySelector("#startScreen")
 var quizScreen = document.querySelector("#quizScreen")
 var questionText = document.querySelector("#questionText")
+var optionContainer = document.querySelector(".options")
 var seconds = 60
 var questionIndex = 0
+var optionButtons = document.querySelectorAll(".answers")
 
 function nextQuestion() {
   //increment question index
@@ -92,6 +94,15 @@ var questionBank = [
 
 ]
 
+optionButtons.forEach(function(option){
+  option.addEventListener("click", function(event){
+    console.log(event.target.innerText)
+    nextQuestion()
+      
+    
+
+  })
+})
 
 
 
